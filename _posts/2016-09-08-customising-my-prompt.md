@@ -93,3 +93,12 @@ macbook:~/project blanca$ echo 'PS1="\h:\w \u\$ "' >> ~/.bashrc
 ```
 
 Now that you know the basics, you can go crazy and customise it all!
+
+**Updated:**
+
+OMG! We can add emojis to our prompt too!
+
+```
+macbook:~ blanca$ PS1="\h:\w \u🦄 "
+macbook:~ blanca🦄
+```
