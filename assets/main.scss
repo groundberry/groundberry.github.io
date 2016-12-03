@@ -1,0 +1,61 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+//== Colors
+//
+
+$brand-primary: #008080;
+
+$link-color: $brand-primary;
+$link-hover-color: lighten($link-color, 5%);
+
+//== Scaffolding
+//
+
+$body-bg: #fff;
+$text-color: #333;
+
+$link-hover-decoration: none;
+
+$link-alt-color: $body-bg;
+$link-alt-hover-color: darken($link-alt-color, 15%);
+
+//== Typography
+//
+
+$font-size-base: 20px;
+$font-size-large: round(($font-size-base * 1.25));
+$font-size-small: round(($font-size-base * 0.85));
+
+$font-size-h1: round(($font-size-base * 1.75));
+$font-size-h2: round(($font-size-base * 1.35));
+$font-size-h3: round(($font-size-base * 1.25));
+$font-size-h4: round(($font-size-base * 1.15));
+$font-size-h5: $font-size-base;
+$font-size-h6: round(($font-size-base * 0.85));
+
+$line-height-base: 1.5;
+
+//== Jumbotron
+//
+
+$jumbotron-font-size: $font-size-base;
+$jumbotron-heading-font-size: ceil(($font-size-base * 2.75));
+
+//== Code
+//
+
+$code-color: darken($brand-primary, 5%);
+$code-bg: transparentize($code-color, .9);
+
+//== Misc
+//
+
+$gradient-rotation: 177deg;
+
+//
+
+@import "bootstrap";
+@import "custom";

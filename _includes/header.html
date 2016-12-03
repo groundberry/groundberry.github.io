@@ -1,0 +1,23 @@
+<header role="banner">
+  <div class="row">
+    <div class="col-md-4 col-md-offset-2">
+      <a href="{{ "/" | relative_url}}">
+        {{ site.title | escape }}
+      </a>
+    </div>
+
+    <nav class="col-md-4 text-right">
+      <ul class="list-inline">
+        {% for page in site.pages %}
+          {% if page.title %}
+            <li>
+              <a href="{{ page.url | relative_url }}">
+                {{ page.title | escape }}
+              </a>
+            <li>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </nav>
+  </div>
+</header>

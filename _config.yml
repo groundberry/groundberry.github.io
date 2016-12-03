@@ -16,13 +16,16 @@
 title: Blanca Mendizabal Perello
 email: blanca.mendizabal.perello@gmail.com
 description: >
-  In this blog I'm going to write about my coding journey at Makers Academy.
+  Full-stack software developer recently graduated from Makers Academy, Europe's
+  leading web development bootcamp. I'm looking for a full-stack junior developer
+  position in a company with ambitions to create something fantastic in the next
+  few years.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://groundberry.github.io" # the base hostname & protocol for your site
-twitter_username: blanca_mendi
 github_username:  groundberry
+twitter_username: blanca_mendi
+linkedin_username: blancamendi
 google_analytics: UA-51789908-3
 
 # Build settings
 markdown: kramdown
-theme: minima

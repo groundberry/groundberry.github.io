@@ -1,0 +1,66 @@
+/**
+ * Base styles
+ */
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+pre {
+  font-size: $font-size-small;
+}
+pre code {
+  white-space: pre;
+}
+
+time {
+  font-size: $font-size-small;
+}
+
+body > header,
+body > main,
+body > footer {
+  padding: 0 1em;
+}
+
+body > header {
+  background-color: $brand-primary;
+  background-image: linear-gradient((180deg + $gradient-rotation + 1), $body-bg ($font-size-base * 3), transparent ($font-size-base * 3 + 1));
+  color: $body-bg;
+  padding-top: 1em;
+  padding-bottom: 3em;
+
+  a {
+    color: $link-alt-color;
+    font-size: $font-size-large;
+  }
+  a:hover, a:focus {
+    color: $link-alt-hover-color;
+  }
+}
+
+body > footer {
+  background-color: $brand-primary;
+  color: $body-bg;
+  margin-top: 2.5em;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  text-align: center;
+
+  a {
+    color: $link-alt-color;
+  }
+  a:hover, a:focus {
+    color: $link-alt-hover-color;
+  }
+
+  .social {
+    path {
+      fill: $link-alt-color;
+    }
+    a:hover path {
+      fill: $link-alt-hover-color;
+    }
+  }
+}

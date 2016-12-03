@@ -1,0 +1,51 @@
+---
+layout: default
+---
+<main class="home" aria-label="Content">
+
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="jumbotron">
+        <img src="{{ site.baseurl }}/assets/photo.jpg" class="img-responsive img-circle center-block" alt="Photo of me">
+
+        <h1>{{ site.title | escape }}</h1>
+        <p>{{ site.description | escape }}</p>
+
+        {% include social.html %}
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+
+      <h2>Posts</h2>
+
+      {{ content }}
+
+      <ul class="timeline list-unstyled">
+        {% for post in site.posts %}
+          <li class="timeline--entry clearfix">
+            <a class="timeline--link" href="{{ post.url | relative_url }}">
+              <span class="timeline--dot"></span>
+              <time class="timeline--time" datetime="{{ post.date | date_to_xmlschema }}">
+                {{ post.date | date: "%b %-d, %Y" }}
+              </time>
+              <h3 class="timeline--title">
+                {{ post.title | escape }}
+              </h3>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <p>
+        <small>
+          Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a>
+        </small>
+      </p>
+
+    </div>
+  </div>
+
+</main>
