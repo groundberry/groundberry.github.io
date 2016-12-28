@@ -27,6 +27,10 @@
     vertical-align: middle;
   }
 
+  a {
+    border-bottom: none;
+  }
+
   svg {
     height: ($font-size-base * 1.25);
     width: ($font-size-base * 1.25);
@@ -63,7 +67,7 @@
     position: relative;
   }
   .timeline::before {
-    background: $list-group-border;
+    background-color: $list-group-border;
     content: '';
     margin-left: -2px;
     position: absolute;
@@ -112,6 +116,7 @@
     left: 50%;
     height: 20px;
     width: 20px;
+    transition: background-color 0.3s ease-in-out;
   }
   .timeline--link:hover .timeline--dot {
     background-color: $link-hover-color;
@@ -140,6 +145,7 @@
 
 .post-navigation--prev,
 .post-navigation--next {
+  border-bottom: none;
   display: block;
   margin-top: 2em;
 }

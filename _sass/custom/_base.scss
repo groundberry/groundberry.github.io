@@ -2,6 +2,11 @@
  * Base styles
  */
 
+a {
+  border-bottom: 1px dotted;
+  transition: color 0.3s ease-in-out;
+}
+
 img {
   height: auto;
   max-width: 100%;
@@ -32,6 +37,7 @@ body > header {
   padding-bottom: 3em;
 
   a {
+    border-bottom: none;
     color: $link-alt-color;
     font-size: $font-size-large;
   }
@@ -49,6 +55,7 @@ body > footer {
   text-align: center;
 
   a {
+    border-bottom: none;
     color: $link-alt-color;
   }
   a:hover, a:focus {
