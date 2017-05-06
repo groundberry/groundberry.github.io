@@ -10,7 +10,7 @@ This is the second post of a series of four where I'll show the main steps I fol
 - Part 1 - [The back-end]({% post_url 2017-03-18-build-an-app-with-rails-and-react-the-back-end %})
 - Part 2 - User authentication
 - Part 3 - [The front-end]({% post_url 2017-04-23-build-an-app-with-rails-and-react-the-front-end %})
-- Part 4 - Deploying to Heroku and GitHub pages
+- Part 4 - [Deploying to Heroku and GitHub Pages]({% post_url 2017-05-05-build-an-app-with-rails-and-react-deploying-to-heroku-and-gh-pages %})
 
 The back-end is a [Rails](http://rubyonrails.org/) app that will store the information provided by the users. The front-end is built with [React](https://facebook.github.io/react/), a JavaScript library for user interfaces.
 
