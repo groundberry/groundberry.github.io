@@ -1,4 +1,10 @@
-<a href="https://github.com/{{ include.username }}">
-  <span class="social--icon">{% include icon-github.svg %}</span>
-  <span class="social--username">{{ include.username }}</span>
-</a>
+{% if include.project %}
+  <a href="https://github.com/{{ include.username }}/{{ include.project }}">
+    <span class="social--icon">{% include icon-github.svg %}</span>
+  </a>
+{% else %}
+  <a href="https://github.com/{{ include.username }}">
+    <span class="social--icon">{% include icon-github.svg %}</span>
+    <span class="social--label">GitHub</span>
+  </a>
+{% endif %}

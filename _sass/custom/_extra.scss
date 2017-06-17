@@ -153,3 +153,43 @@
 .post-navigation--next {
   text-align: right;
 }
+
+// Projects
+
+.project {
+  margin: 15px;
+  position: relative;
+}
+
+.project--panel {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.project--title {
+  font-size: 1.125em;
+  line-height: 1em;
+  margin: 0 0 15px;
+}
+
+.project--description {
+  font-size: 0.8em;
+}
+
+.project a {
+  border-bottom: none;
+}
+
+.project svg {
+  height: 25px;
+  width: 25px;
+}
+
+.project path {
+  fill: #fff;
+}

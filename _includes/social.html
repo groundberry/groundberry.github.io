@@ -1,4 +1,12 @@
 <ul class="social list-inline">
+  {% include icon-portfolio.html %}
+
+  {% if site.email %}
+  <li>
+    {% include icon-email.html username=site.email %}
+  </li>
+  {% endif %}
+
   {% if site.github_username %}
   <li>
     {% include icon-github.html username=site.github_username %}
