@@ -1,0 +1,13 @@
+<div class="project">
+  <img src="{{ include.screenshot }}" alt="Flashcards">
+  <div class="project--panel">
+    <h3 class="project--title">
+      {{ include.name }}
+    </h3>
+    <p class="project--description">
+      {{ include.description }}
+    </p>
+    {% include icon-github.html username=site.github_username project=include.repo %}
+    {% include icon-app.html url=include.url %}
+  </div>
+</div>
