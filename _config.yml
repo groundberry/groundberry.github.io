@@ -16,10 +16,10 @@
 title: Blanca Mendizabal Perello
 email: blanca.mendizabal.perello@gmail.com
 description: >
-  I'm a full-stack software developer with particular interest in the front-end
-  and modern JavaScript technologies. I'm using React to build my latest projects
-  and I love it! If you are looking for a passionate dev to join your team send me
-  an email or a DM!
+  I'm a full-stack software developer, currently focused on modern front-end
+  technologies. I'm using React to build my latest projects, and I'm loving it!
+  If you are looking for a passionate dev to join your team send me an email or
+  a DM!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://groundberry.github.io" # the base hostname & protocol for your site
 github_username:  groundberry
