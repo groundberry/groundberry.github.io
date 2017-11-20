@@ -12,6 +12,10 @@ img {
   max-width: 100%;
 }
 
+details > summary {
+  margin: 0 0 ($line-height-computed / 2);
+}
+
 pre {
   font-size: $font-size-small;
 }
