@@ -1,0 +1,6 @@
+{% capture path %}{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | slugify }}/{{ include.name }}{% endcapture %}
+<p>
+  <video controls src="{{ site.baseurl }}/assets/{{ path }}">
+    {% if include.alt %}{{ include.alt }}{% endif %}
+  </video>
+</p>
