@@ -24,6 +24,12 @@ layout: content
 
   <div itemprop="articleBody">
     {{ content }}
+    {% if page.canonical %}
+      <hr />
+      <p>
+        <i>This post was originally published at <a href="{{ page.canonical }}">{{ page.canonical }}</a>.</i>
+      </p>
+    {% endif %}
   </div>
 
   <div class="post-navigation row">
