@@ -3,7 +3,7 @@ layout: post
 title: "Forcing myself to write unit tests"
 date: 2018-11-24
 categories: development
-published: false
+canonical: https://www.telerik.com/blogs/forcing-myself-to-write-unit-tests
 ---
 
 > Tests are like vegetables. They're really good for other people.
