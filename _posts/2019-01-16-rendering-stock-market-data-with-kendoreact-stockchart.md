@@ -3,7 +3,7 @@ layout: post
 title: "Rendering stock market data with KendoReact StockChart"
 date: 2019-01-16
 categories: development
-published: false
+canonical: https://www.telerik.com/blogs/rendering-stock-market-data-with-kendoreact-stockchart
 ---
 
 In this article we are going to build a [React](https://facebook.github.io/react/) app to render historical stock prices.
