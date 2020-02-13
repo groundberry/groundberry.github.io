@@ -3,7 +3,7 @@ layout: post
 title: "Dealing with CORS in Create React App"
 date: 2019-03-20
 categories: development
-published: false
+canonical: https://www.telerik.com/blogs/dealing-with-cors-in-create-react-app
 ---
 
 If you've ever built a web app that had to request data from a different domain, you probably had to wrap your head around the browser's [same-origin policy](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy) and [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS).
