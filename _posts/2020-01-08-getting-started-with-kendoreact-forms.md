@@ -3,7 +3,7 @@ layout: post
 title: "Getting started with KendoReact Forms"
 date: 2020-01-08
 categories: development
-published: false
+canonical: https://www.telerik.com/blogs/building-a-fully-featured-react-form-component-kendoreact-form-example
 ---
 
 Creating complex forms in a React app can be quite tricky. You have to deal with state management, validating user input, displaying error messages, styling, and so on, so things can get complicated fast.
