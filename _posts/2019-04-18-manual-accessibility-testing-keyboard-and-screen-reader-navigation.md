@@ -3,7 +3,7 @@ layout: post
 title: "Manual accessibility testing: keyboard and screen reader navigation"
 date: 2019-04-18
 categories: development
-published: false
+canonical: https://www.telerik.com/blogs/manual-accessibility-testing-keyboard-and-screen-reader-navigation
 ---
 
 When we talk about accesibility in the context of the web, we talk about building sites and apps that everyone can navigate and interact with. Many developers treat accessibility as an afterthought, thinking that only a minority of their userbase would benefit from the effort. They don't realize that 15% of the world's population lives with some form of disability. That's one billion potential customers you're turning away.
