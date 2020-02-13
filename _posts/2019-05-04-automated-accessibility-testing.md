@@ -3,7 +3,7 @@ layout: post
 title: "Automated accessibility testing"
 date: 2019-05-04
 categories: development
-published: false
+canonical: https://www.telerik.com/blogs/the-need-for-automated-accessibility-testing
 ---
 
 Accessibility on the web means building sites and apps that everyone can navigate and interact with. The best way to ensure we are building accessible experiences is to combine automated testing with manual quality assurance and user testing.
