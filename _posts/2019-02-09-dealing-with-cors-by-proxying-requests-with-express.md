@@ -3,7 +3,7 @@ layout: post
 title:  "Dealing with CORS by proxying requests with Express"
 date:   2019-02-09
 categories: development
-published: false
+canonical: https://www.telerik.com/blogs/supporting-cors-by-proxying-requests-with-express
 ---
 
 In our last article, we built a [React](https://facebook.github.io/react/) app to render historical stock prices. Everything was working fine, until we encountered an issue when trying to hit the [IEX API](https://iextrading.com/developer/docs/).
